@@ -1,5 +1,5 @@
 {
-  "name": "jssip",
+  "name": "@anuradev/jssip",
   "title": "JsSIP",
   "description": "the Javascript SIP library",
   "version": "3.10.0",
