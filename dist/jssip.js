@@ -14917,8 +14917,7 @@ module.exports = /*#__PURE__*/function (_EventEmitter) {
       this._from_tag = request.from_tag;
       this._id = request.call_id + this._from_tag;
       this._request = request;
-      this._contact = this._ua.contact.toString();
-      this._contact = "<" + this._request.ruri + ">";
+      this._contact = "<".concat(this._request.ruri, ">");
 
       // Get the Expires header value if exists.
       if (request.hasHeader('expires')) {
